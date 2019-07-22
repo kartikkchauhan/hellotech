@@ -1,0 +1,59 @@
+.stickyheader{
+  position: fixed;
+  top:53px;
+  width: 100%;
+  height: 200px;
+  opacity: 0.9;
+  padding: 5px 16px;
+  background:white;
+  color:black;
+display: block;
+}
+#headcontent{
+  position: fixed;
+
+}
+.sticky {
+  position: fixed;
+  top: 40px;
+  width: 100%;
+}
+.stickyheader button{
+  position: absolute;
+  top: 75%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: blue;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.stickyheader button:hover {
+  background-color:#008080;
+}
+.stickyheader p{
+  position: absolute;
+  top:25%;
+  left:75%;
+  font-size: 25px;
+}
+.stickyheader h2.cost{
+  position: absolute;
+  top:25%;
+  left:82%;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+.stickyheader a{
+  position: absolute;
+  top:65%;
+  left:5%;
+  font-size: 25px;
+
+}

@@ -1,0 +1,12 @@
+
+a:link, a:visited {
+  color: dimgrey;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: Gainsboro;
+}

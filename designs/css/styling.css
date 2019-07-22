@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+#sidebar{
+	position: fixed;
+	width:200px;
+	height: 100%;
+	background-color: black;
+	color: #ddd;
+	left:-200px;
+	transition: all 500ms linear;
+}
+#sidebar.active{
+	left:0px;
+}
+#sidebar ul li{
+	padding: 15px 15px;
+	border-bottom: 1px solid #aaa;
+	list-style: none;
+
+}
+li:hover{
+	background-color: #ccc;
+	color:black;
+}
+
+#sidebar .toggle{
+	position: absolute;
+	left:201px;
+	top:0px;
+	background-color:#fff;
+	width: 81px;
+	padding:13px;
+
+}
+#sidebar .menu{
+	position: absolute;
+	left:200px;
+	top:50px;
+	width: 90px;
+	color: black;
+	padding:0px;
+	border: 1px;
+	background-color: #ddd;
+	max-height: calc(100vh - 5rem);
+  	overflow-y: auto;
+}
+#sidebar .toggle span{
+
+	width:40px;
+	height:5px;
+	display:block;
+	background-color: black;
+	margin:3px;
+	left:20px;
+
+}
+/* width */
+.menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.menu::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.menu::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.menu::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
