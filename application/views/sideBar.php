@@ -13,7 +13,7 @@
     			<li id="icon3"><a href="#"><i class="material-icons" style="font-size:40px;color:blue ">voice_chat</i> <b> Audio & Video</b></a> </li>
     			<li id="icon4"><a href="#"><i class="material-icons" style="font-size:40px;color:blue">voice_chat</i> <b> Smart  Home</b></a> </li>
     			<li id="icon5"><a href="#"><i class="material-icons" style="font-size:40px;color:blue">voice_chat</i> <b> Wifi & Networks</b></a> </li>
-    			<li id="icon7"><a href="businessplan.php"><i class="material-icons" style="font-size:40px;color:blue">voice_chat</i> <b> Business Services</b></a> </li>
+    			<li id="icon7"><a href="<?php echo base_url('Welcome/businessPlans'); ?>"><i class="material-icons" style="font-size:40px;color:blue">voice_chat</i> <b> Business Services</b></a> </li>
           <li id="icon4"><a href="#"><i class="material-icons" style="font-size:40px;color:blue">voice_chat</i> <b> Smart  Home</b></a> </li>
           <li id="icon5"><a href="#"><i class="material-icons" style="font-size:40px;color:blue">voice_chat</i> <b> Wifi & Networks</b></a> </li>
     	  </ul>

@@ -21,10 +21,10 @@
   <body style="overflow-x: hidden;">
     <div class="container">
     <div class="signinhead">
-        <h1><span class="glyphicon glyphicon-home"></span> HelloTech</h1>
+        <a href="<?php echo base_url('Welcome/'); ?>"><h1 id="signinhead"><span class="glyphicon glyphicon-home"></span> HelloTech</h1></a>
     </div>
     <div class="container">
-        <img src="459176-dell-precision-5720-aio.jpg" alt="Snow">
+        <img src="<?php echo base_url() ?>designs/images/459176-dell-precision-5720-aio.jpg" alt="Snow">
             </div>
     <div class="overimg">
       <h1 style="z-index:+10">Tech Support For Business</h1>

@@ -46,5 +46,10 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('signin');
     }
+    public function businessPlans()
+    {
+        $this->load->view('businessplan');
+    }
+
 
 }
