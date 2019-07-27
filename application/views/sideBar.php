@@ -28,11 +28,11 @@
       </ul>
       <ul id="list2" >
           <li>Home2</li>;
-          <a href="<?php echo site_url('Welcome/computerSupport'); ?>">  <li>Computer Support</li></a>
-          <a href="<?php echo site_url('Welcome/printer'); ?>">  <li>Printer</li></a>
-          <a href="networking.php">  <li>Networking</li></a>
-          <a href="hardwares.php">  <li>Hardwares</li></a>
-  				<a href="computersupport.php">  <li>Third2</li></a>
+          <a href="<?php echo base_url('Welcome/computerSupport'); ?>">  <li>Computer Support</li></a>
+          <a href="<?php echo base_url('Welcome/printer'); ?>">  <li>Printer</li></a>
+          <a href="<?php echo base_url('Welcome/networking'); ?>">  <li>Networking</li></a>
+          <a href="<?php echo base_url('Welcome/hardware'); ?>">  <li>Hardwares</li></a>
+          <a href="<?php echo base_url('Welcome/networking'); ?>">  <li>Third2</li></a>
 
       </ul>
       <ul id="list3" >

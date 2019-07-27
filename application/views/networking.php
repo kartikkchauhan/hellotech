@@ -2,10 +2,10 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styling.css">
-  <link rel="stylesheet" type="text/css" href="row_1.css">
-	<link rel="stylesheet" href="extra.css">
-	<link rel="stylesheet" href="computersupport.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>designs/css/styling.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>designs/css/row_1.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>designs/css/extra.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>designs/css/computersupport.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -49,15 +49,15 @@
 
 
 
-<div id="maincon" class="container-fluid" style="position:relative;left: 65px;top: 50px;">
+<div id="maincon" class="container" style="position:relative;left: 65px;top: 50px;">
 
 
 
   <div class="container">
-      <img src="459176-dell-precision-5720-aio.jpg" alt="Snow">
-			<a href="footer.html"> <i> <img id="stickyicon" src="images/customercareicon.png" alt="Customer Support" style=" z-index: 7"></i></a>
-		</div>
-      <div class="stickyheader" style=" z-index:6">
+      <img src="<?php echo base_url() ?>designs/images/459176-dell-precision-5720-aio.jpg" alt="Snow">
+      <a href="footer.html"> <i> <img id="stickyicon" src="<?php echo base_url() ?>designs/images/customercareicon.png" alt="Customer Support" style=" z-index: 7"></i></a>
+  </div>
+      <div class="stickyheader container" style=" z-index:6">
         <h1><b>Networking Related Services</b> </h1>
         <button onclick="window.location.href='#'">Book Now</button>
         <p>
@@ -87,7 +87,7 @@
             Shubham
             Kartik
           </p>
-          <img src="images/customercareicon.png" alt="logo" height="50px" width="50px">
+          <img src="<?php echo base_url() ?>designs/images/customercareicon.png" alt="logo" height="50px" width="50px">
           djddjakdmcakia
           adkai
           dajdaijd.
@@ -144,7 +144,7 @@
     <div class="row" style="background-color: #eee;padding: 20px;text-align: center;">
        <h1 class="headings">Heading For Row Four</h1>
       <div class="col-md-4">
-        <img src="459176-dell-precision-5720-aio.jpg" alt="Demo Images" style="width:100%; max-width:400px;">
+        <img src="<?php echo base_url() ?>designs/459176-dell-precision-5720-aio.jpg" alt="Demo Images" style="width:100%; max-width:400px;">
         <p>
           <h3>Trusted Techs</h3>
           Kartik chauhan <br>
@@ -154,7 +154,7 @@
         </p>
       </div>
       <div class="col-md-4">
-        <img src="459176-dell-precision-5720-aio.jpg" alt="Demo Images" style="width:100%; max-width:400px;">
+        <img src="<?php echo base_url() ?>designs/459176-dell-precision-5720-aio.jpg" alt="Demo Images" style="width:100%; max-width:400px;">
         <p>
           <h3>Trusted Techs</h3>
           Kartik chauhan <br>
@@ -165,7 +165,7 @@
 
       </div>
       <div class="col-md-4">
-        <img src="459176-dell-precision-5720-aio.jpg" alt="Demo Images" style="width:100%; max-width:400px;">
+        <img src="<?php echo base_url() ?>designs/459176-dell-precision-5720-aio.jpg" alt="Demo Images" style="width:100%; max-width:400px;">
         <p>
           <h3>Trusted Techs</h3>
           Kartik chauhan <br>
@@ -180,14 +180,14 @@
 	<h1 class="headings">To be included in every page</h1>
 	<div class="row">
 		<div class="col-md-12">
-			<a href="row_1.html"><i class="fa fa-facebook-square" style="font-size:36px;"></i></a>
-			<a href="row_1.html"> <i class="fa fa-google-plus-circle" style="font-size:36px; padding:10px;"></i></a>
-			<a href="row_1.html"><i class="fa fa-twitter-square" style="font-size:36px"></i><br></a>
-			<a href="row_1.html">FAQs  |</a>
-			<a href="row_1.html">  FAQs  |</a>
-			<a href="row_1.html">  FAQs  |</a>
-			<a href="row_1.html">  FAQs  |</a>
-			<a href="row_1.html">  FAQs  |</a> <br>
+			<a href="#"><i class="fa fa-facebook-square" style="font-size:36px;"></i></a>
+			<a href="#"> <i class="fa fa-google-plus-circle" style="font-size:36px; padding:10px;"></i></a>
+			<a href="#"><i class="fa fa-twitter-square" style="font-size:36px"></i><br></a>
+			<a href="#l">FAQs  |</a>
+			<a href="#">  FAQs  |</a>
+			<a href="#">  FAQs  |</a>
+			<a href="#">  FAQs  |</a>
+			<a href="#">  FAQs  |</a> <br>
 		 Shubham Negi <br>
 		 Sonali Bisht <br>
 			Kartik Chauhan

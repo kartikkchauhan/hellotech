@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>designs/css/signin.css">
     <title></title>
   </head>
   <body>
@@ -18,8 +18,7 @@
 
       </div>
       <div class="col-md-8">
-        <button type="button" name="button" onclick="window.location.href='footer.html'" id="closebutton"><i style="font-size:24px" class="fa">&#xf00d;</i></button>
-        <h1 id="signinhead"><span class="glyphicon glyphicon-home"></span> HelloTech</h1>
+          <a href="<?php echo base_url('Welcome/'); ?>"><h1 id="signinhead"><span class="glyphicon glyphicon-home"></span> HelloTech</h1></a>
         <h1 id="signinhead"> <b> Sign In</b></h1>
         <a href="#" id="sidelink"> <h4>Sign in as Tech/Partner</h4></a>
         <form class="form1" action="index.html" method="post">

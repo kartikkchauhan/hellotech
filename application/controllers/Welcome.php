@@ -30,4 +30,21 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('printer');
     }
+    public function networking()
+    {
+        $this->load->view('networking');
+    }
+    public function hardware()
+    {
+        $this->load->view('hardwares');
+    }
+    public function signup()
+    {
+        $this->load->view('signup');
+    }
+    public function signin()
+    {
+        $this->load->view('signin');
+    }
+
 }

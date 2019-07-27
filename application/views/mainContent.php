@@ -2,7 +2,7 @@
           <img src="<?php echo base_url() ?>designs/images/459176-dell-precision-5720-aio.jpg" alt="Snow">
     					<button class="btn_1" onclick="func2()">Let's get started</button>
     		      <button class="btn_2" > <i class="material-icons">send</i> See how it works</button>
-    					<a href="footer.php"> <i> <img id="stickyicon" src="<?php echo base_url() ?>designs/images/images/customercareicon.png" alt="Customer Support" style=" z-index: 7"></i></a>
+    					<a href="footer.php"> <i> <img id="stickyicon" src="<?php echo base_url() ?>designs/images/customercareicon.png" alt="Customer Support" style=" z-index: 7"></i></a>
     				  </div>
 
 
