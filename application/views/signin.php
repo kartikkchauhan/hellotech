@@ -21,12 +21,12 @@
           <a href="<?php echo base_url('Welcome/'); ?>"><h1 id="signinhead"><span class="glyphicon glyphicon-home"></span> HelloTech</h1></a>
         <h1 id="signinhead"> <b> Sign In</b></h1>
         <a href="#" id="sidelink"> <h4>Sign in as Tech/Partner</h4></a>
-        <form class="form1" action="index.html" method="post">
+          <?php echo form_open('Welcome/signin_call', ['class'=>'form1']);?>
           <h4> <b> Email Address</b></h4>
-          <input type="text" name="email">
+          <input type="email" name="email">
           <h4> <b> Password</b></h4>
-          <input type="password" name="pass">
-          <input type="submit" name="SIGN IN">
+          <input type="password" name="password">
+          <input type="submit" name="signin">
           <a href="#"> <h4> <b> FORGOT PASSWORD??</b></h4> </a>
         </form>
       </div>

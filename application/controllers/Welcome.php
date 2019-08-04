@@ -50,6 +50,51 @@ class Welcome extends CI_Controller {
     {
         $this->load->view('businessplan');
     }
+    public function signup_call()
+    {
+        $firstname=$this->input->post('firstname');
+        $lastname=$this->input->post('lastname');
+        $email=$this->input->post('email');
+        $password=$this->input->post('password');
+        $number=$this->input->post('number');
 
+        $this->load->model('userscall_model');
+        $id=$this->userscall_model->signup_insert($firstname, $lastname, $email, $password, $number);
+        if($id)
+        {
+            $this->session->set_userdata('user_id',$id);
+            return redirect('Usercalls/home');
+        }
+        else
+        {
+            echo "Error While Logging you in";
+        }
+    }
+    public function signin_call()
+    {
+        $email=$this->input->post('email');
+        $password=$this->input->post('password');
+
+        $this->load->model('userscall_model');
+        $id=$this->userscall_model->signin_check($email, $password);
+        if($id)
+        {
+            $this->session->set_userdata('user_id',$id);
+            return redirect('Usercalls/home');
+        }
+        else
+        {
+            echo "Error While Logging you in";
+        }
+    }
+
+    public function __construct()
+    {
+        parent::__construct();
+        if ($this->session->userdata('user_id'))
+        {
+            redirect('Usercalls/home');
+        }
+    }
 
 }

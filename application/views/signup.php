@@ -21,8 +21,8 @@
       <div class="col-md-8">
 
           <a href="<?php echo base_url('Welcome/'); ?>"><h1 id="signinhead"><span class="glyphicon glyphicon-home"></span> HelloTech</h1></a>
-        <h1 id="signinhead"> <b> SIGN UP</b></h1>      
-        <form class="form1" action="index.html" method="post">
+        <h1 id="signinhead"> <b> SIGN UP</b></h1>
+          <?php echo form_open('Welcome/signup_call', ['class'=>'form1']);?>
           <h4> <b> Name</b></h4>
           <div class="row">
             <div class="col-md-5">
@@ -33,21 +33,11 @@
             </div>
           </div>
           <h4> <b> Email Address</b></h4>
-          <input type="text" name="email" required>
+          <input type="email" name="email" required>
           <h4> <b> New Password</b></h4>
-          <input type="password" name="pass" minlength="6" required>
+          <input type="password" name="password" minlength="6" required>
           <h4> <b> Mobile Number</b></h4>
-          <input type="text" name="mobile">
-          <div class="row">
-            <div class="col-md-2">
-              <h4> <b> Date of Birth</b></h4>
-            </div>
-            <div class="col-md-3" style="padding: 5px;">
-              <input type="date" name="DOB" required>
-            </div>
-          </div>
-          
-          
+          <input type="number" name="number">
           <br>
           <br>
           <input type="submit" name="SIGNUP" value="Sign Up">
